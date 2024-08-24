@@ -4,7 +4,7 @@ https://github.com/user-attachments/assets/94aacec8-3188-4318-a313-af5cf54afaf1
 
 
 
-## Introduction
+# Introduction
 This project implements a ReACT agent—a model designed to reason and act iteratively within a React Native app. The agent follows a loop that includes stages of thought, action, pause, and observation to process user queries effectively. The application uses the Anthropic API for natural language processing, allowing the agent to perform complex reasoning tasks and interact with predefined tools, such as performing calculations or retrieving data on country areas.
 
 # Features
@@ -12,14 +12,14 @@ ReACT Agent Implementation: The agent mimics human-like reasoning by iteratively
 Anthropic API Integration: Utilizes the Anthropic API to handle natural language queries and generate intelligent responses.
 Customizable System Prompt: Easily modify the agent’s behavior by adjusting the system prompt, defining available actions and reasoning processes.
 
-Usage
+# Usage
 
-Set Up the Anthropic API Key:
+### Set Up the Anthropic API Key:
 
 Replace the placeholder ANTHROPIC_API_KEY in the code with your actual Anthropic API key.
 
 
-Run the App:
+### Run the App:
 
 To start the app on an iOS or Android emulator, use:
 
@@ -27,11 +27,12 @@ npx react-native run-ios
 # or
 npx react-native run-android
 
-Input Queries:
+### Input Queries:
 
 Enter your query into the text input field.
 Press the "Run Query" button to see the ReACT agent's response.
-Observe the ReACT Process:
+
+# Observe the ReACT Process:
 
 The agent follows a ReACT loop (Thought, Action, PAUSE, Observation), allowing you to see each step of its reasoning and action process in real-time.
 How the ReACT Agent Works
@@ -43,7 +44,7 @@ PAUSE: The agent pauses, allowing for reflection or waiting for an external proc
 Observation: The agent observes the result of the action and uses this information to continue reasoning.
 This cycle repeats until the agent reaches a final conclusion, which is then presented as the answer to the user’s query.
 
-Example Queries
+# Example Queries
 Try entering these queries to see the ReACT agent in action:
 
 What is the combined area of Russia and Canada?
@@ -51,7 +52,7 @@ Calculate the sum of area of USA and 1250.
 Double the area of India.
 The agent will reason through the problem, perform necessary actions, and then provide the final answer.
 
-Example:
+# Example:
 Input: Area of Russia + Area of USA - Area of India
 Output: 
  LOG  Iteration 1, sending prompt: Area of Russia + Area of USA - Area of India
