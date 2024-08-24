@@ -4,10 +4,10 @@ https://github.com/user-attachments/assets/94aacec8-3188-4318-a313-af5cf54afaf1
 
 
 
-Introduction
+## Introduction
 This project implements a ReACT agent—a model designed to reason and act iteratively within a React Native app. The agent follows a loop that includes stages of thought, action, pause, and observation to process user queries effectively. The application uses the Anthropic API for natural language processing, allowing the agent to perform complex reasoning tasks and interact with predefined tools, such as performing calculations or retrieving data on country areas.
 
-Features
+# Features
 ReACT Agent Implementation: The agent mimics human-like reasoning by iteratively thinking, acting, pausing, and observing before providing a final response.
 Anthropic API Integration: Utilizes the Anthropic API to handle natural language queries and generate intelligent responses.
 Customizable System Prompt: Easily modify the agent’s behavior by adjusting the system prompt, defining available actions and reasoning processes.
